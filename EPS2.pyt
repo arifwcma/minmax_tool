@@ -154,14 +154,14 @@ def run_extraction(parameters):
         for group_type_label in GROUP_TYPES:
             log("")
             log(f"--- Processing {group_type_label} group ---")
-            aggregated_for_group = compute_group_stats(
+            records_for_group = compute_group_stats(
                 zone_layer_name,
                 rasters_by_group_type[group_type_label],
                 group_type_label,
                 parcel_id_field,
             )
-            merge_group_into_summary(per_parcel_summary, aggregated_for_group, group_type_label)
-            log(f"{group_type_label}: {len(aggregated_for_group)} parcel(s) had data.")
+            merge_group_records_into_summary(per_parcel_summary, records_for_group, group_type_label)
+            log(f"{group_type_label}: {len(records_for_group)} parcel(s) had data.")
 
         log("")
         log_per_parcel_summary(per_parcel_summary)
@@ -404,9 +404,9 @@ def seed_per_parcel_summary(selected_parcels):
     for parcel in selected_parcels:
         per_parcel_summary[parcel["id"]] = {
             "spi":      parcel["spi"],
-            "Height":   None,
-            "Velocity": None,
-            "Depth":    None,
+            "Height":   [],
+            "Velocity": [],
+            "Depth":    [],
         }
     return per_parcel_summary
 
@@ -454,13 +454,13 @@ def is_ancestor_chain_visible(long_name, visibility_by_long_name):
 
 
 def compute_group_stats(parcel_layer, raster_layers, group_type_label, parcel_id_field):
-    total_rasters = len(raster_layers)
+    total_rasters = max(len(raster_layers), 1)
     arcpy.SetProgressor("step", f"Extracting {group_type_label} stats", 0, total_rasters, 1)
-    aggregated_per_parcel = {}
+    records_per_parcel = {}
     for raster_index, raster_layer in enumerate(raster_layers, start=1):
-        arcpy.SetProgressorLabel(f"{group_type_label}: {raster_layer.name} ({raster_index}/{total_rasters})")
-        run_zonal_stats_into(
-            aggregated_per_parcel,
+        arcpy.SetProgressorLabel(f"{group_type_label}: {raster_layer.name} ({raster_index}/{len(raster_layers)})")
+        run_zonal_stats_into_records(
+            records_per_parcel,
             parcel_layer,
             parcel_id_field,
             raster_layer,
@@ -469,10 +469,10 @@ def compute_group_stats(parcel_layer, raster_layers, group_type_label, parcel_id
         )
         arcpy.SetProgressorPosition()
     arcpy.ResetProgressor()
-    return aggregated_per_parcel
+    return records_per_parcel
 
 
-def run_zonal_stats_into(aggregated_per_parcel, parcel_layer, parcel_id_field, raster_layer, group_type_label, raster_index):
+def run_zonal_stats_into_records(records_per_parcel, parcel_layer, parcel_id_field, raster_layer, group_type_label, raster_index):
     start_time = time.perf_counter()
     output_table_in_memory = f"memory\\eps_zs_{group_type_label.lower()}_{raster_index}"
     if arcpy.Exists(output_table_in_memory):
@@ -492,8 +492,8 @@ def run_zonal_stats_into(aggregated_per_parcel, parcel_layer, parcel_id_field, r
         warn(f"    Skipped (no overlap or tool error): {arcpy.GetMessages(2)}")
         return
 
-    updated_parcel_count = merge_zonal_table_into(
-        aggregated_per_parcel,
+    rows_added = append_zonal_rows_to_records(
+        records_per_parcel,
         output_table_in_memory,
         parcel_id_field,
         raster_layer.longName,
@@ -502,37 +502,25 @@ def run_zonal_stats_into(aggregated_per_parcel, parcel_layer, parcel_id_field, r
         arcpy.management.Delete(output_table_in_memory)
     except Exception:
         pass
-    log(f"    -> {updated_parcel_count} parcel(s) updated in {time.perf_counter() - start_time:.2f}s")
+    log(f"    -> {rows_added} parcel(s) updated in {time.perf_counter() - start_time:.2f}s")
 
 
-def merge_zonal_table_into(aggregated_per_parcel, zonal_table, parcel_id_field, raster_long_name):
-    updated_count = 0
+def append_zonal_rows_to_records(records_per_parcel, zonal_table, parcel_id_field, raster_long_name):
+    rows_added = 0
     with arcpy.da.SearchCursor(zonal_table, [parcel_id_field, "MIN", "MAX"]) as cursor:
         for parcel_id, min_value, max_value in cursor:
-            existing = aggregated_per_parcel.get(parcel_id)
-            if existing is None:
-                aggregated_per_parcel[parcel_id] = {
-                    "min":     min_value,
-                    "max":     max_value,
-                    "sources": [raster_long_name],
-                }
-            else:
-                if min_value is not None and (existing["min"] is None or min_value < existing["min"]):
-                    existing["min"] = min_value
-                if max_value is not None and (existing["max"] is None or max_value > existing["max"]):
-                    existing["max"] = max_value
-                existing["sources"].append(raster_long_name)
-            updated_count += 1
-    return updated_count
+            records_per_parcel.setdefault(parcel_id, []).append((raster_long_name, min_value, max_value))
+            rows_added += 1
+    return rows_added
 
 
-def merge_group_into_summary(per_parcel_summary, aggregated_for_group, group_type_label):
-    for parcel_id, aggregate in aggregated_for_group.items():
+def merge_group_records_into_summary(per_parcel_summary, records_for_group, group_type_label):
+    for parcel_id, records in records_for_group.items():
         existing = per_parcel_summary.get(parcel_id)
         if existing is None:
-            existing = {"spi": "", "Height": None, "Velocity": None, "Depth": None}
+            existing = {"spi": "", "Height": [], "Velocity": [], "Depth": []}
             per_parcel_summary[parcel_id] = existing
-        existing[group_type_label] = aggregate
+        existing[group_type_label].extend(records)
 
 
 def log_per_parcel_summary(per_parcel_summary):
@@ -548,17 +536,23 @@ def log_per_parcel_summary(per_parcel_summary):
         spi_text = summary["spi"] if summary["spi"] else "-"
         log("")
         log(f"Parcel {parcel_id}   (SPI: {spi_text})")
-        header_line = f"  {'Group':<10}{'Min':<14}{'Max':<14}{'Sources'}"
+        header_line = f"  {'Group':<10}{'Min':<14}{'Max':<14}{'Source'}"
         log(header_line)
         log("  " + "-" * 68)
         for group_type_label in GROUP_TYPES:
-            log("  " + format_group_row(group_type_label, summary[group_type_label]))
+            records = summary[group_type_label]
+            if not records:
+                log("  " + format_empty_row(group_type_label))
+                continue
+            for raster_long_name, min_value, max_value in records:
+                log("  " + format_record_row(group_type_label, raster_long_name, min_value, max_value))
 
 
-def format_group_row(group_type_label, aggregate):
-    if aggregate is None:
-        return f"{group_type_label:<10}{'None':<14}{'None':<14}-"
-    min_text = "None" if aggregate["min"] is None else f"{aggregate['min']:.4f}"
-    max_text = "None" if aggregate["max"] is None else f"{aggregate['max']:.4f}"
-    sources_text = "; ".join(aggregate["sources"])
-    return f"{group_type_label:<10}{min_text:<14}{max_text:<14}{sources_text}"
+def format_empty_row(group_type_label):
+    return f"{group_type_label:<10}{'None':<14}{'None':<14}-"
+
+
+def format_record_row(group_type_label, raster_long_name, min_value, max_value):
+    min_text = "None" if min_value is None else f"{min_value:.4f}"
+    max_text = "None" if max_value is None else f"{max_value:.4f}"
+    return f"{group_type_label:<10}{min_text:<14}{max_text:<14}{raster_long_name}"

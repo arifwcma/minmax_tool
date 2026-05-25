@@ -3,7 +3,7 @@
 	"MajorVersion" : 1,
 	"MinorVersion" : 0,
 	"PatchVersion" : 0,
-	"NumberOfNodes" : 1784,
+	"NumberOfNodes" : 1788,
 	"Nodes" :
 	[
 		{
@@ -964,13 +964,13 @@
 			"NodeId" : 159,
 			"NodeType" : "Layer",
 			"FileName" : "Climate_Change.json",
-			"ChildNodeIds" : "1442,760,1704,1705,1702,1703,1712,1713"
+			"ChildNodeIds" : "1442,760,1708,1709,1706,1707,1716,1717"
 		},
 		{
 			"NodeId" : 160,
 			"NodeType" : "Layer",
 			"FileName" : "Climate_Change2.json",
-			"ChildNodeIds" : "1442,1721,1722,1719,1720,1729,1730,760"
+			"ChildNodeIds" : "1442,1725,1726,1723,1724,1733,1734,760"
 		},
 		{
 			"NodeId" : 161,
@@ -1174,7 +1174,7 @@
 			"NodeId" : 194,
 			"NodeType" : "Layer",
 			"FileName" : "existing__e01_.json",
-			"ChildNodeIds" : "1196,112,1651,74,55,34,11,93,760"
+			"ChildNodeIds" : "1196,112,1655,74,55,34,11,93,760"
 		},
 		{
 			"NodeId" : 195,
@@ -1186,13 +1186,13 @@
 			"NodeId" : 196,
 			"NodeType" : "Layer",
 			"FileName" : "Existing__E01_3.json",
-			"ChildNodeIds" : "760,1328,1700,1701,1706,1707,1708,1709,1710,1711,1714"
+			"ChildNodeIds" : "760,1328,1704,1705,1710,1711,1712,1713,1714,1715,1718"
 		},
 		{
 			"NodeId" : 197,
 			"NodeType" : "Layer",
 			"FileName" : "Existing__E01_4.json",
-			"ChildNodeIds" : "1263,57,1644,36,90,13,75,113,760"
+			"ChildNodeIds" : "1263,57,1648,36,90,13,75,113,760"
 		},
 		{
 			"NodeId" : 198,
@@ -1318,13 +1318,13 @@
 			"NodeId" : 218,
 			"NodeType" : "Layer",
 			"FileName" : "hindmarsh_shire.json",
-			"ChildNodeIds" : "230,1127,1626,178,760,1657"
+			"ChildNodeIds" : "230,1127,1626,178,760,1661"
 		},
 		{
 			"NodeId" : 219,
 			"NodeType" : "Layer",
 			"FileName" : "Hindmarsh_Shire2.json",
-			"ChildNodeIds" : "231,1423,1627,179,1658,760"
+			"ChildNodeIds" : "231,1423,1627,179,1662,760"
 		},
 		{
 			"NodeId" : 220,
@@ -1360,13 +1360,13 @@
 			"NodeId" : 225,
 			"NodeType" : "Layer",
 			"FileName" : "horsham_rural_city.json",
-			"ChildNodeIds" : "1324,157,232,171,1739,223,1615,1639,1751,760"
+			"ChildNodeIds" : "1324,157,232,171,1743,223,1615,1643,1755,760"
 		},
 		{
 			"NodeId" : 226,
 			"NodeType" : "Layer",
 			"FileName" : "Horsham_Rural_City2.json",
-			"ChildNodeIds" : "233,172,1048,158,1740,224,1616,1640,1752,760"
+			"ChildNodeIds" : "233,172,1048,158,1744,224,1616,1644,1756,760"
 		},
 		{
 			"NodeId" : 227,
@@ -1378,7 +1378,7 @@
 			"NodeId" : 228,
 			"NodeType" : "Layer",
 			"FileName" : "isc_imagery_2010__15cm_.json",
-			"ChildNodeIds" : "1073,1766,1767,760,1768"
+			"ChildNodeIds" : "1073,1770,1771,760,1772"
 		},
 		{
 			"NodeId" : 229,
@@ -4756,43 +4756,43 @@
 			"NodeId" : 791,
 			"NodeType" : "Layer",
 			"FileName" : "map/existing__e01_2.json",
-			"ChildNodeIds" : "69,50,107,91,760,1648,1089,16,37,217"
+			"ChildNodeIds" : "69,50,107,91,760,1652,1089,16,37,217"
 		},
 		{
 			"NodeId" : 792,
 			"NodeType" : "Layer",
 			"FileName" : "map/existing__e01_3.json",
-			"ChildNodeIds" : "115,99,1574,1641,77,59,39,19,760"
+			"ChildNodeIds" : "115,99,1574,1645,77,59,39,19,760"
 		},
 		{
 			"NodeId" : 793,
 			"NodeType" : "Layer",
 			"FileName" : "map/existing__e01_4.json",
-			"ChildNodeIds" : "86,1529,1649,70,51,7,92,30,108,760"
+			"ChildNodeIds" : "86,1529,1653,70,51,7,92,30,108,760"
 		},
 		{
 			"NodeId" : 794,
 			"NodeType" : "Layer",
 			"FileName" : "map/existing__e01_5.json",
-			"ChildNodeIds" : "1198,81,25,1650,64,46,26,103,45,119,760"
+			"ChildNodeIds" : "1198,81,25,1654,64,46,26,103,45,119,760"
 		},
 		{
 			"NodeId" : 795,
 			"NodeType" : "Layer",
 			"FileName" : "map/existing__e01_6.json",
-			"ChildNodeIds" : "1310,8,1652,71,52,94,31,109,760"
+			"ChildNodeIds" : "1310,8,1656,71,52,94,31,109,760"
 		},
 		{
 			"NodeId" : 796,
 			"NodeType" : "Layer",
 			"FileName" : "map/existing__e01_7.json",
-			"ChildNodeIds" : "1055,18,1642,95,72,53,9,32,110,760"
+			"ChildNodeIds" : "1055,18,1646,95,72,53,9,32,110,760"
 		},
 		{
 			"NodeId" : 797,
 			"NodeType" : "Layer",
 			"FileName" : "Map/Existing__E01_8.json",
-			"ChildNodeIds" : "760,1328,1717,1718,1723,1724,1725,1726,1727,1728,1731"
+			"ChildNodeIds" : "760,1328,1721,1722,1727,1728,1729,1730,1731,1732,1735"
 		},
 		{
 			"NodeId" : 798,
@@ -4804,13 +4804,13 @@
 			"NodeId" : 799,
 			"NodeType" : "Layer",
 			"FileName" : "Map/Extents.json",
-			"ChildNodeIds" : "971,98,114,17,38,58,76,1643,760"
+			"ChildNodeIds" : "971,98,114,17,38,58,76,1647,760"
 		},
 		{
 			"NodeId" : 800,
 			"NodeType" : "Layer",
 			"FileName" : "map/flood_events.json",
-			"ChildNodeIds" : "1017,760,1781,1782"
+			"ChildNodeIds" : "1017,760,1785,1786"
 		},
 		{
 			"NodeId" : 801,
@@ -4930,7 +4930,7 @@
 			"NodeId" : 820,
 			"NodeType" : "Layer",
 			"FileName" : "map/mitigation__scenario_1__m01_.json",
-			"ChildNodeIds" : "981,41,21,1645,61,116,100,78,760"
+			"ChildNodeIds" : "981,41,21,1649,61,116,100,78,760"
 		},
 		{
 			"NodeId" : 821,
@@ -4942,7 +4942,7 @@
 			"NodeId" : 822,
 			"NodeType" : "Layer",
 			"FileName" : "map/mitigation__scenario_2__m02_.json",
-			"ChildNodeIds" : "117,101,62,1072,1646,42,22,79,760"
+			"ChildNodeIds" : "117,101,62,1072,1650,42,22,79,760"
 		},
 		{
 			"NodeId" : 823,
@@ -4954,7 +4954,7 @@
 			"NodeId" : 824,
 			"NodeType" : "Layer",
 			"FileName" : "map/mitigation__scenario_3__m03_.json",
-			"ChildNodeIds" : "80,1284,43,23,1647,63,118,102,760"
+			"ChildNodeIds" : "80,1284,43,23,1651,63,118,102,760"
 		},
 		{
 			"NodeId" : 825,
@@ -5050,7 +5050,7 @@
 			"NodeId" : 840,
 			"NodeType" : "Layer",
 			"FileName" : "Map/Property_Map_Polygons___Vicmap_Property__PROPERTY_MP_.json",
-			"ChildNodeIds" : "760,1634"
+			"ChildNodeIds" : "760,1636"
 		},
 		{
 			"NodeId" : 841,
@@ -5068,13 +5068,13 @@
 			"NodeId" : 843,
 			"NodeType" : "Layer",
 			"FileName" : "Map/Rain_on_Grid.json",
-			"ChildNodeIds" : "1628,1509,1692,760"
+			"ChildNodeIds" : "1628,1509,1696,760"
 		},
 		{
 			"NodeId" : 844,
 			"NodeType" : "Layer",
 			"FileName" : "Map/Rain_on_Grid2.json",
-			"ChildNodeIds" : "1629,1577,1693,760"
+			"ChildNodeIds" : "1629,1577,1697,760"
 		},
 		{
 			"NodeId" : 845,
@@ -5098,7 +5098,7 @@
 			"NodeId" : 848,
 			"NodeType" : "Layer",
 			"FileName" : "map/stormwater.json",
-			"ChildNodeIds" : "1227,1756,145,760"
+			"ChildNodeIds" : "1227,1760,145,760"
 		},
 		{
 			"NodeId" : 849,
@@ -5140,19 +5140,19 @@
 			"NodeId" : 855,
 			"NodeType" : "Layer",
 			"FileName" : "map/wcma_aerial_mosaics.json",
-			"ChildNodeIds" : "760,228,1392,1741,1764,1666,1699,1668"
+			"ChildNodeIds" : "760,228,1392,1745,1768,1670,1703,1672"
 		},
 		{
 			"NodeId" : 856,
 			"NodeType" : "Layer",
 			"FileName" : "Map/WCMA_Aerial_Mosaics2.json",
-			"ChildNodeIds" : "1667,1387,1742,760"
+			"ChildNodeIds" : "1671,1387,1746,760"
 		},
 		{
 			"NodeId" : 857,
 			"NodeType" : "Layer",
 			"FileName" : "map/wcma_boundary.json",
-			"ChildNodeIds" : "1381,1763,760,1765"
+			"ChildNodeIds" : "1381,1767,760,1769"
 		},
 		{
 			"NodeId" : 858,
@@ -5170,7 +5170,7 @@
 			"NodeId" : 860,
 			"NodeType" : "Layer",
 			"FileName" : "map/wimmera_roads.json",
-			"ChildNodeIds" : "1408,729,760,1605,1743"
+			"ChildNodeIds" : "1408,729,760,1605,1747"
 		},
 		{
 			"NodeId" : 861,
@@ -5188,7 +5188,7 @@
 			"NodeId" : 863,
 			"NodeType" : "Layer",
 			"FileName" : "map/wimmera_waterways.json",
-			"ChildNodeIds" : "1556,760,1759,1760"
+			"ChildNodeIds" : "1556,760,1763,1764"
 		},
 		{
 			"NodeId" : 864,
@@ -9790,13 +9790,13 @@
 			"NodeId" : 1630,
 			"NodeType" : "Layer",
 			"FileName" : "northern_grampians_shire.json",
-			"ChildNodeIds" : "1695,189,148,1715,1522,200,206,210,864,1622,1734,760"
+			"ChildNodeIds" : "1699,189,148,1719,1522,200,206,210,864,1622,1738,760"
 		},
 		{
 			"NodeId" : 1631,
 			"NodeType" : "Layer",
 			"FileName" : "Northern_Grampians_Shire2.json",
-			"ChildNodeIds" : "1581,865,190,1716,149,201,207,211,1623,1696,1735,760"
+			"ChildNodeIds" : "1581,865,190,1720,149,201,207,211,1623,1700,1739,760"
 		},
 		{
 			"NodeId" : 1632,
@@ -9813,899 +9813,923 @@
 		{
 			"NodeId" : 1634,
 			"NodeType" : "BinaryReference",
-			"FileName" : "ObjectIdentifierSet/d044a427f87a432bc73cca975b74cdce.dat",
+			"FileName" : "ObjectIdentifierSet/55dc4bdb77d61bb6859a7a54bf55df91.dat",
 			"ChildNodeIds" : ""
 		},
 		{
 			"NodeId" : 1635,
+			"NodeType" : "BinaryReference",
+			"FileName" : "ObjectIdentifierSet/5c9a31dd6cab88ecc8c7cdd2d24cb2cb.dat",
+			"ChildNodeIds" : ""
+		},
+		{
+			"NodeId" : 1636,
+			"NodeType" : "BinaryReference",
+			"FileName" : "ObjectIdentifierSet/8fd72d04c72e395fa50375d1ebb55127.dat",
+			"ChildNodeIds" : ""
+		},
+		{
+			"NodeId" : 1637,
+			"NodeType" : "BinaryReference",
+			"FileName" : "ObjectIdentifierSet/d044a427f87a432bc73cca975b74cdce.dat",
+			"ChildNodeIds" : ""
+		},
+		{
+			"NodeId" : 1638,
+			"NodeType" : "BinaryReference",
+			"FileName" : "ObjectIdentifierSet/dd07524be321b47908f79316241909e1.dat",
+			"ChildNodeIds" : ""
+		},
+		{
+			"NodeId" : 1639,
 			"NodeType" : "Layer",
 			"FileName" : "omeo8423_2010feb18_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "957,760"
 		},
 		{
-			"NodeId" : 1636,
+			"NodeId" : 1640,
 			"NodeType" : "Layer",
 			"FileName" : "orbost8522_2010feb25_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1149,760"
 		},
 		{
-			"NodeId" : 1637,
+			"NodeId" : 1641,
 			"NodeType" : "Layer",
 			"FileName" : "otway7620_2011mar25_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1570,760"
 		},
 		{
-			"NodeId" : 1638,
+			"NodeId" : 1642,
 			"NodeType" : "Layer",
 			"FileName" : "ouyen7327_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1065,760"
 		},
 		{
-			"NodeId" : 1639,
+			"NodeId" : 1643,
 			"NodeType" : "Layer",
 			"FileName" : "pimpino_2016dec22_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1476,760"
 		},
 		{
-			"NodeId" : 1640,
+			"NodeId" : 1644,
 			"NodeType" : "Layer",
 			"FileName" : "pimpino_2016dec22_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "938,760"
 		},
 		{
-			"NodeId" : 1641,
+			"NodeId" : 1645,
 			"NodeType" : "Layer",
 			"FileName" : "pmf.json",
 			"ChildNodeIds" : "1080,760"
 		},
 		{
-			"NodeId" : 1642,
+			"NodeId" : 1646,
 			"NodeType" : "Layer",
 			"FileName" : "pmf10.json",
 			"ChildNodeIds" : "1551,760"
 		},
 		{
-			"NodeId" : 1643,
+			"NodeId" : 1647,
 			"NodeType" : "Layer",
 			"FileName" : "PMF11.json",
 			"ChildNodeIds" : "965,760"
 		},
 		{
-			"NodeId" : 1644,
+			"NodeId" : 1648,
 			"NodeType" : "Layer",
 			"FileName" : "PMF12.json",
 			"ChildNodeIds" : "760,1552"
 		},
 		{
-			"NodeId" : 1645,
+			"NodeId" : 1649,
 			"NodeType" : "Layer",
 			"FileName" : "pmf2.json",
 			"ChildNodeIds" : "1080,760"
 		},
 		{
-			"NodeId" : 1646,
+			"NodeId" : 1650,
 			"NodeType" : "Layer",
 			"FileName" : "pmf3.json",
 			"ChildNodeIds" : "1080,760"
 		},
 		{
-			"NodeId" : 1647,
+			"NodeId" : 1651,
 			"NodeType" : "Layer",
 			"FileName" : "pmf4.json",
 			"ChildNodeIds" : "1080,760"
 		},
 		{
-			"NodeId" : 1648,
+			"NodeId" : 1652,
 			"NodeType" : "Layer",
 			"FileName" : "pmf5.json",
 			"ChildNodeIds" : "1275,760"
 		},
 		{
-			"NodeId" : 1649,
+			"NodeId" : 1653,
 			"NodeType" : "Layer",
 			"FileName" : "pmf6.json",
 			"ChildNodeIds" : "931,760"
 		},
 		{
-			"NodeId" : 1650,
+			"NodeId" : 1654,
 			"NodeType" : "Layer",
 			"FileName" : "pmf7.json",
 			"ChildNodeIds" : "1217,760"
 		},
 		{
-			"NodeId" : 1651,
+			"NodeId" : 1655,
 			"NodeType" : "Layer",
 			"FileName" : "pmf8.json",
 			"ChildNodeIds" : "1557,760"
 		},
 		{
-			"NodeId" : 1652,
+			"NodeId" : 1656,
 			"NodeType" : "Layer",
 			"FileName" : "pmf9.json",
 			"ChildNodeIds" : "760,1121"
 		},
 		{
-			"NodeId" : 1653,
+			"NodeId" : 1657,
 			"NodeType" : "Layer",
 			"FileName" : "portland7221_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "901,760"
 		},
 		{
-			"NodeId" : 1654,
+			"NodeId" : 1658,
 			"NodeType" : "Layer",
 			"FileName" : "princetown7520_2011mar25_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1053,760"
 		},
 		{
-			"NodeId" : 1655,
+			"NodeId" : 1659,
 			"NodeType" : "Layer",
 			"FileName" : "pyrenees_shire.json",
-			"ChildNodeIds" : "1659,1096,124,129,721,169,136,192,240,1620,1674,1761,760"
+			"ChildNodeIds" : "1663,1096,124,129,721,169,136,192,240,1620,1678,1765,760"
 		},
 		{
-			"NodeId" : 1656,
+			"NodeId" : 1660,
 			"NodeType" : "Layer",
 			"FileName" : "Pyrenees_Shire2.json",
-			"ChildNodeIds" : "1223,125,130,722,760,170,137,193,241,1621,1660,1675,1762"
+			"ChildNodeIds" : "1223,125,130,722,760,170,137,193,241,1621,1664,1679,1766"
 		},
 		{
-			"NodeId" : 1657,
+			"NodeId" : 1661,
 			"NodeType" : "Layer",
 			"FileName" : "rainbow_2016dec22_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1036,760"
 		},
 		{
-			"NodeId" : 1658,
+			"NodeId" : 1662,
 			"NodeType" : "Layer",
 			"FileName" : "rainbow_2016dec22_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "993,760"
 		},
 		{
-			"NodeId" : 1659,
+			"NodeId" : 1663,
 			"NodeType" : "Layer",
 			"FileName" : "redbank_2016dec19_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1280,760"
 		},
 		{
-			"NodeId" : 1660,
+			"NodeId" : 1664,
 			"NodeType" : "Layer",
 			"FileName" : "redbank_2016dec19_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "973,760"
 		},
 		{
-			"NodeId" : 1661,
+			"NodeId" : 1665,
 			"NodeType" : "Layer",
 			"FileName" : "ringwood7922_2009dec02_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1064,760"
 		},
 		{
-			"NodeId" : 1662,
+			"NodeId" : 1666,
 			"NodeType" : "Layer",
 			"FileName" : "rivers.json",
 			"ChildNodeIds" : "1277,760"
 		},
 		{
-			"NodeId" : 1663,
+			"NodeId" : 1667,
 			"NodeType" : "Layer",
 			"FileName" : "rnport7921_woolamai7920_2009dec02_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1189,760"
 		},
 		{
-			"NodeId" : 1664,
+			"NodeId" : 1668,
 			"NodeType" : "Layer",
 			"FileName" : "robinvale7428_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1087,760"
 		},
 		{
-			"NodeId" : 1665,
+			"NodeId" : 1669,
 			"NodeType" : "Layer",
 			"FileName" : "rupanyup7424_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1365,760"
 		},
 		{
-			"NodeId" : 1666,
+			"NodeId" : 1670,
 			"NodeType" : "Layer",
 			"FileName" : "rural___2017__20cm_.json",
 			"ChildNodeIds" : "1401,760"
 		},
 		{
-			"NodeId" : 1667,
+			"NodeId" : 1671,
 			"NodeType" : "Layer",
 			"FileName" : "Rural___2017__20cm_2.json",
 			"ChildNodeIds" : "1393,760"
 		},
 		{
-			"NodeId" : 1668,
+			"NodeId" : 1672,
 			"NodeType" : "Layer",
 			"FileName" : "sa_south_east.json",
 			"ChildNodeIds" : "1106,760"
 		},
 		{
-			"NodeId" : 1669,
+			"NodeId" : 1673,
 			"NodeType" : "Layer",
 			"FileName" : "sale8321_stockyard8421_2010jan09_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "937,760"
 		},
 		{
-			"NodeId" : 1670,
+			"NodeId" : 1674,
 			"NodeType" : "Layer",
 			"FileName" : "serviceton_2016dec22_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1180,760"
 		},
 		{
-			"NodeId" : 1671,
+			"NodeId" : 1675,
 			"NodeType" : "Layer",
 			"FileName" : "serviceton_2016dec22_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "1539,760"
 		},
 		{
-			"NodeId" : 1672,
+			"NodeId" : 1676,
 			"NodeType" : "Layer",
 			"FileName" : "shepparton7925_2009dec14_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "919,760"
 		},
 		{
-			"NodeId" : 1673,
+			"NodeId" : 1677,
 			"NodeType" : "Layer",
 			"FileName" : "skipton7522_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "760,948"
 		},
 		{
-			"NodeId" : 1674,
+			"NodeId" : 1678,
 			"NodeType" : "Layer",
 			"FileName" : "snake_valley_2016dec19_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1445,760"
 		},
 		{
-			"NodeId" : 1675,
+			"NodeId" : 1679,
 			"NodeType" : "Layer",
 			"FileName" : "snake_valley_2016dec19_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "1485,760"
 		},
 		{
-			"NodeId" : 1676,
+			"NodeId" : 1680,
 			"NodeType" : "Layer",
 			"FileName" : "solid.json",
-			"ChildNodeIds" : "1749,1484,1697,760"
+			"ChildNodeIds" : "1753,1484,1701,760"
 		},
 		{
-			"NodeId" : 1677,
+			"NodeId" : 1681,
 			"NodeType" : "Layer",
 			"FileName" : "sorrento7821_2009dec02_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "760,922"
 		},
 		{
-			"NodeId" : 1678,
+			"NodeId" : 1682,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_0_2_tif2.json",
 			"ChildNodeIds" : "1337,760"
 		},
 		{
-			"NodeId" : 1679,
+			"NodeId" : 1683,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_0_5_tif2.json",
 			"ChildNodeIds" : "1244,760"
 		},
 		{
-			"NodeId" : 1680,
+			"NodeId" : 1684,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_10p_tif2.json",
 			"ChildNodeIds" : "924,760"
 		},
 		{
-			"NodeId" : 1681,
+			"NodeId" : 1685,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_1p_tif2.json",
 			"ChildNodeIds" : "1236,760"
 		},
 		{
-			"NodeId" : 1682,
+			"NodeId" : 1686,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_20p_tif2.json",
 			"ChildNodeIds" : "947,760"
 		},
 		{
-			"NodeId" : 1683,
+			"NodeId" : 1687,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_2p_tif2.json",
 			"ChildNodeIds" : "1341,760"
 		},
 		{
-			"NodeId" : 1684,
+			"NodeId" : 1688,
 			"NodeType" : "Layer",
 			"FileName" : "south_d_5P_tif2.json",
 			"ChildNodeIds" : "994,760"
 		},
 		{
-			"NodeId" : 1685,
+			"NodeId" : 1689,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_0_2_tif.json",
 			"ChildNodeIds" : "1583,760"
 		},
 		{
-			"NodeId" : 1686,
+			"NodeId" : 1690,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_0_5_tif.json",
 			"ChildNodeIds" : "1289,760"
 		},
 		{
-			"NodeId" : 1687,
+			"NodeId" : 1691,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_10p_tif.json",
 			"ChildNodeIds" : "987,760"
 		},
 		{
-			"NodeId" : 1688,
+			"NodeId" : 1692,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_1p_tif.json",
 			"ChildNodeIds" : "880,760"
 		},
 		{
-			"NodeId" : 1689,
+			"NodeId" : 1693,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_20p_tif.json",
 			"ChildNodeIds" : "1420,760"
 		},
 		{
-			"NodeId" : 1690,
+			"NodeId" : 1694,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_2p_tif.json",
 			"ChildNodeIds" : "1560,760"
 		},
 		{
-			"NodeId" : 1691,
+			"NodeId" : 1695,
 			"NodeType" : "Layer",
 			"FileName" : "south_v_5P_tif.json",
 			"ChildNodeIds" : "1591,760"
 		},
 		{
-			"NodeId" : 1692,
+			"NodeId" : 1696,
 			"NodeType" : "Layer",
 			"FileName" : "Southern_Filtered.json",
-			"ChildNodeIds" : "1592,1691,1685,1689,1690,1686,1687,1688,760"
+			"ChildNodeIds" : "1592,1695,1689,1693,1694,1690,1691,1692,760"
 		},
 		{
-			"NodeId" : 1693,
+			"NodeId" : 1697,
 			"NodeType" : "Layer",
 			"FileName" : "Southern_Filtered2.json",
-			"ChildNodeIds" : "1232,1684,1678,1682,1683,1679,1680,1681,760"
+			"ChildNodeIds" : "1232,1688,1682,1686,1687,1683,1684,1685,760"
 		},
 		{
-			"NodeId" : 1694,
+			"NodeId" : 1698,
 			"NodeType" : "Layer",
 			"FileName" : "st_arnaud7524_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1104,760"
 		},
 		{
-			"NodeId" : 1695,
+			"NodeId" : 1699,
 			"NodeType" : "Layer",
 			"FileName" : "st_arnaud_2016dec19_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1565,760"
 		},
 		{
-			"NodeId" : 1696,
+			"NodeId" : 1700,
 			"NodeType" : "Layer",
 			"FileName" : "st_arnaud_2016dec19_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "1251,760"
 		},
 		{
-			"NodeId" : 1697,
+			"NodeId" : 1701,
 			"NodeType" : "Layer",
 			"FileName" : "state.json",
 			"ChildNodeIds" : "1131,760"
 		},
 		{
-			"NodeId" : 1698,
+			"NodeId" : 1702,
 			"NodeType" : "Layer",
 			"FileName" : "state2.json",
 			"ChildNodeIds" : "1131,760"
 		},
 		{
-			"NodeId" : 1699,
+			"NodeId" : 1703,
 			"NodeType" : "Layer",
 			"FileName" : "statewide_aerial_photos___2010__50cm_.json",
-			"ChildNodeIds" : "164,871,212,1776,725,168,1638,1738,1633,238,1747,1748,1661,239,1673,174,1653,184,133,166,215,151,1736,1746,1770,138,1737,150,1602,1783,143,142,154,1771,237,1632,1624,866,1664,1777,1654,1672,1637,1758,1769,165,1612,122,185,1611,144,1779,175,867,140,1669,730,4,1636,1663,141,167,163,229,1745,1613,132,1609,1732,191,1754,1780,1610,1778,216,121,1757,152,727,1775,731,181,1677,1635,199,146,139,131,1774,227,760"
+			"ChildNodeIds" : "164,871,212,1780,725,168,1642,1742,1633,238,1751,1752,1665,239,1677,174,1657,184,133,166,215,151,1740,1750,1774,138,1741,150,1602,1787,143,142,154,1775,237,1632,1624,866,1668,1781,1658,1676,1641,1762,1773,165,1612,122,185,1611,144,1783,175,867,140,1673,730,4,1640,1667,141,167,163,229,1749,1613,132,1609,1736,191,1758,1784,1610,1782,216,121,1761,152,727,1779,731,181,1681,1639,199,146,139,131,1778,227,760"
 		},
 		{
-			"NodeId" : 1700,
+			"NodeId" : 1704,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI10.json",
 			"ChildNodeIds" : "1054,760"
 		},
 		{
-			"NodeId" : 1701,
+			"NodeId" : 1705,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI100.json",
 			"ChildNodeIds" : "1160,760"
 		},
 		{
-			"NodeId" : 1702,
+			"NodeId" : 1706,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI100IRI10YR2100.json",
 			"ChildNodeIds" : "1558,760"
 		},
 		{
-			"NodeId" : 1703,
+			"NodeId" : 1707,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI100IRI23YR2100.json",
 			"ChildNodeIds" : "1020,760"
 		},
 		{
-			"NodeId" : 1704,
+			"NodeId" : 1708,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI10IRI10YR2100.json",
 			"ChildNodeIds" : "1303,760"
 		},
 		{
-			"NodeId" : 1705,
+			"NodeId" : 1709,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI10IRI23YR2100.json",
 			"ChildNodeIds" : "1357,760"
 		},
 		{
-			"NodeId" : 1706,
+			"NodeId" : 1710,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI20.json",
 			"ChildNodeIds" : "1416,760"
 		},
 		{
-			"NodeId" : 1707,
+			"NodeId" : 1711,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI200.json",
 			"ChildNodeIds" : "1535,760"
 		},
 		{
-			"NodeId" : 1708,
+			"NodeId" : 1712,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI2000.json",
 			"ChildNodeIds" : "1004,760"
 		},
 		{
-			"NodeId" : 1709,
+			"NodeId" : 1713,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI5.json",
 			"ChildNodeIds" : "996,760"
 		},
 		{
-			"NodeId" : 1710,
+			"NodeId" : 1714,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI50.json",
 			"ChildNodeIds" : "1447,760"
 		},
 		{
-			"NodeId" : 1711,
+			"NodeId" : 1715,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI500.json",
 			"ChildNodeIds" : "1400,760"
 		},
 		{
-			"NodeId" : 1712,
+			"NodeId" : 1716,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI5IRI10YR2100.json",
 			"ChildNodeIds" : "1046,760"
 		},
 		{
-			"NodeId" : 1713,
+			"NodeId" : 1717,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARI5IRI23YR2100.json",
 			"ChildNodeIds" : "1059,760"
 		},
 		{
-			"NodeId" : 1714,
+			"NodeId" : 1718,
 			"NodeType" : "Layer",
 			"FileName" : "Stawell24RvDepthARIPMF.json",
 			"ChildNodeIds" : "885,760"
 		},
 		{
-			"NodeId" : 1715,
+			"NodeId" : 1719,
 			"NodeType" : "Layer",
 			"FileName" : "stawell_2016dec23_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1459,760"
 		},
 		{
-			"NodeId" : 1716,
+			"NodeId" : 1720,
 			"NodeType" : "Layer",
 			"FileName" : "stawell_2016dec23_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "1107,760"
 		},
 		{
-			"NodeId" : 1717,
+			"NodeId" : 1721,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI10.json",
 			"ChildNodeIds" : "1446,760"
 		},
 		{
-			"NodeId" : 1718,
+			"NodeId" : 1722,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI100.json",
 			"ChildNodeIds" : "1029,760"
 		},
 		{
-			"NodeId" : 1719,
+			"NodeId" : 1723,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI100IRI10YR2100.json",
 			"ChildNodeIds" : "760,1264"
 		},
 		{
-			"NodeId" : 1720,
+			"NodeId" : 1724,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI100IRI23YR2100.json",
 			"ChildNodeIds" : "1517,760"
 		},
 		{
-			"NodeId" : 1721,
+			"NodeId" : 1725,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI10IRI10YR2100.json",
 			"ChildNodeIds" : "760,1526"
 		},
 		{
-			"NodeId" : 1722,
+			"NodeId" : 1726,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI10IRI23YR2100.json",
 			"ChildNodeIds" : "1191,760"
 		},
 		{
-			"NodeId" : 1723,
+			"NodeId" : 1727,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI20.json",
 			"ChildNodeIds" : "1052,760"
 		},
 		{
-			"NodeId" : 1724,
+			"NodeId" : 1728,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI200.json",
 			"ChildNodeIds" : "1549,760"
 		},
 		{
-			"NodeId" : 1725,
+			"NodeId" : 1729,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI2000.json",
 			"ChildNodeIds" : "1311,760"
 		},
 		{
-			"NodeId" : 1726,
+			"NodeId" : 1730,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI5.json",
 			"ChildNodeIds" : "1544,760"
 		},
 		{
-			"NodeId" : 1727,
+			"NodeId" : 1731,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI50.json",
 			"ChildNodeIds" : "1295,760"
 		},
 		{
-			"NodeId" : 1728,
+			"NodeId" : 1732,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI500.json",
 			"ChildNodeIds" : "1456,760"
 		},
 		{
-			"NodeId" : 1729,
+			"NodeId" : 1733,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI5IRI10YR2100.json",
 			"ChildNodeIds" : "1546,760"
 		},
 		{
-			"NodeId" : 1730,
+			"NodeId" : 1734,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARI5IRI23YR2100.json",
 			"ChildNodeIds" : "760,1147"
 		},
 		{
-			"NodeId" : 1731,
+			"NodeId" : 1735,
 			"NodeType" : "Layer",
 			"FileName" : "StawellG24RvDepthARIPMF.json",
 			"ChildNodeIds" : "999,760"
 		},
 		{
-			"NodeId" : 1732,
+			"NodeId" : 1736,
 			"NodeType" : "Layer",
 			"FileName" : "stratford8322_2010feb03_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1157,760"
 		},
 		{
-			"NodeId" : 1733,
+			"NodeId" : 1737,
 			"NodeType" : "Layer",
 			"FileName" : "streams.json",
 			"ChildNodeIds" : "883,760"
 		},
 		{
-			"NodeId" : 1734,
+			"NodeId" : 1738,
 			"NodeType" : "Layer",
 			"FileName" : "stuart_mill_2016dec19_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1498,760"
 		},
 		{
-			"NodeId" : 1735,
+			"NodeId" : 1739,
 			"NodeType" : "Layer",
 			"FileName" : "stuart_mill_2016dec19_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "891,760"
 		},
 		{
-			"NodeId" : 1736,
+			"NodeId" : 1740,
 			"NodeType" : "Layer",
 			"FileName" : "sunset7228_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "760,1470"
 		},
 		{
-			"NodeId" : 1737,
+			"NodeId" : 1741,
 			"NodeType" : "Layer",
 			"FileName" : "swanhill7627_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1138,760"
 		},
 		{
-			"NodeId" : 1738,
+			"NodeId" : 1742,
 			"NodeType" : "Layer",
 			"FileName" : "tallangatta8325_2009dec29_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1532,760"
 		},
 		{
-			"NodeId" : 1739,
+			"NodeId" : 1743,
 			"NodeType" : "Layer",
 			"FileName" : "toolondo_2016dec22_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1204,760"
 		},
 		{
-			"NodeId" : 1740,
+			"NodeId" : 1744,
 			"NodeType" : "Layer",
 			"FileName" : "toolondo_2016dec22_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "911,760"
 		},
 		{
-			"NodeId" : 1741,
+			"NodeId" : 1745,
 			"NodeType" : "Layer",
 			"FileName" : "towns___2017__10cm_.json",
-			"ChildNodeIds" : "760,1184,218,225,1630,1655,1772"
+			"ChildNodeIds" : "760,1184,218,225,1630,1659,1776"
 		},
 		{
-			"NodeId" : 1742,
+			"NodeId" : 1746,
 			"NodeType" : "Layer",
 			"FileName" : "Towns___2017__10cm_2.json",
-			"ChildNodeIds" : "760,1656,1335,219,226,1631,1773"
+			"ChildNodeIds" : "760,1660,1335,219,226,1631,1777"
 		},
 		{
-			"NodeId" : 1743,
+			"NodeId" : 1747,
 			"NodeType" : "Layer",
 			"FileName" : "tracks.json",
 			"ChildNodeIds" : "1269,760"
 		},
 		{
-			"NodeId" : 1744,
+			"NodeId" : 1748,
 			"NodeType" : "Layer",
 			"FileName" : "transparent.json",
-			"ChildNodeIds" : "1698,1503,1750,760"
+			"ChildNodeIds" : "1702,1503,1754,760"
 		},
 		{
-			"NodeId" : 1745,
+			"NodeId" : 1749,
 			"NodeType" : "Layer",
 			"FileName" : "traralgon8221_2010jan09_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "889,760"
 		},
 		{
-			"NodeId" : 1746,
+			"NodeId" : 1750,
 			"NodeType" : "Layer",
 			"FileName" : "tuppal7926_mathoura7826_2009dec14_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1139,760"
 		},
 		{
-			"NodeId" : 1747,
+			"NodeId" : 1751,
 			"NodeType" : "Layer",
 			"FileName" : "tyrrell7427_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1567,760"
 		},
 		{
-			"NodeId" : 1748,
+			"NodeId" : 1752,
 			"NodeType" : "Layer",
 			"FileName" : "underbool7227_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "760,1333"
 		},
 		{
-			"NodeId" : 1749,
+			"NodeId" : 1753,
 			"NodeType" : "Layer",
 			"FileName" : "vic.json",
 			"ChildNodeIds" : "976,760"
 		},
 		{
-			"NodeId" : 1750,
+			"NodeId" : 1754,
 			"NodeType" : "Layer",
 			"FileName" : "vic2.json",
 			"ChildNodeIds" : "976,760"
 		},
 		{
-			"NodeId" : 1751,
+			"NodeId" : 1755,
 			"NodeType" : "Layer",
 			"FileName" : "wail_2016dec22_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "892,760"
 		},
 		{
-			"NodeId" : 1752,
+			"NodeId" : 1756,
 			"NodeType" : "Layer",
 			"FileName" : "wail_2016dec22_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "909,760"
 		},
 		{
-			"NodeId" : 1753,
+			"NodeId" : 1757,
 			"NodeType" : "Layer",
 			"FileName" : "wallowa7126_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1074,760"
 		},
 		{
-			"NodeId" : 1754,
+			"NodeId" : 1758,
 			"NodeType" : "Layer",
 			"FileName" : "wangaratta8125_2009dec13_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1030,760"
 		},
 		{
-			"NodeId" : 1755,
+			"NodeId" : 1759,
 			"NodeType" : "Layer",
 			"FileName" : "warracknabeal7325_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1323,760"
 		},
 		{
-			"NodeId" : 1756,
+			"NodeId" : 1760,
 			"NodeType" : "Layer",
 			"FileName" : "warracknabeal___100yr_2hr.json",
 			"ChildNodeIds" : "997,760"
 		},
 		{
-			"NodeId" : 1757,
+			"NodeId" : 1761,
 			"NodeType" : "Layer",
 			"FileName" : "warragul8021_2009dec13_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1572,760"
 		},
 		{
-			"NodeId" : 1758,
+			"NodeId" : 1762,
 			"NodeType" : "Layer",
 			"FileName" : "warrnambool7321_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1475,760"
 		},
 		{
-			"NodeId" : 1759,
+			"NodeId" : 1763,
 			"NodeType" : "Layer",
 			"FileName" : "waterbodies.json",
 			"ChildNodeIds" : "1325,198,123,760"
 		},
 		{
-			"NodeId" : 1760,
+			"NodeId" : 1764,
 			"NodeType" : "Layer",
 			"FileName" : "watercourses.json",
-			"ChildNodeIds" : "760,1128,1662,1733,153"
+			"ChildNodeIds" : "760,1128,1666,1737,153"
 		},
 		{
-			"NodeId" : 1761,
+			"NodeId" : 1765,
 			"NodeType" : "Layer",
 			"FileName" : "waubra_2016dec19_air_vis_10cm_mga54_ecw.json",
 			"ChildNodeIds" : "1274,760"
 		},
 		{
-			"NodeId" : 1762,
+			"NodeId" : 1766,
 			"NodeType" : "Layer",
 			"FileName" : "waubra_2016dec19_air_vis_10cm_mga54_ecw2.json",
 			"ChildNodeIds" : "1115,760"
 		},
 		{
-			"NodeId" : 1763,
+			"NodeId" : 1767,
 			"NodeType" : "Layer",
 			"FileName" : "wcma.json",
 			"ChildNodeIds" : "1454,760"
 		},
 		{
-			"NodeId" : 1764,
+			"NodeId" : 1768,
 			"NodeType" : "Layer",
 			"FileName" : "wcma___2010__50cm_.json",
-			"ChildNodeIds" : "1097,120,1753,1625,1694,1755,1665,128,134,135,180,186,202,205,220,222,234,1614,760"
+			"ChildNodeIds" : "1097,120,1757,1625,1698,1759,1669,128,134,135,180,186,202,205,220,222,234,1614,760"
 		},
 		{
-			"NodeId" : 1765,
+			"NodeId" : 1769,
 			"NodeType" : "Layer",
 			"FileName" : "wcma_mask.json",
-			"ChildNodeIds" : "1144,1676,1744,760"
+			"ChildNodeIds" : "1144,1680,1748,760"
 		},
 		{
-			"NodeId" : 1766,
+			"NodeId" : 1770,
 			"NodeType" : "Layer",
 			"FileName" : "wcma_rivers_2009dec18_air_vis_15cm_mga54_ecw.json",
 			"ChildNodeIds" : "760,1411"
 		},
 		{
-			"NodeId" : 1767,
+			"NodeId" : 1771,
 			"NodeType" : "Layer",
 			"FileName" : "wcma_rivers_2009dec18_air_vis_1m_mga54_ecw.json",
 			"ChildNodeIds" : "1595,760"
 		},
 		{
-			"NodeId" : 1768,
+			"NodeId" : 1772,
 			"NodeType" : "Layer",
 			"FileName" : "wcma_rivers_2009dec18_air_vis_5m_mga54_ecw.json",
 			"ChildNodeIds" : "1452,760"
 		},
 		{
-			"NodeId" : 1769,
+			"NodeId" : 1773,
 			"NodeType" : "Layer",
 			"FileName" : "wedderburn7625_2009apr14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1066,760"
 		},
 		{
-			"NodeId" : 1770,
+			"NodeId" : 1774,
 			"NodeType" : "Layer",
 			"FileName" : "weimby7528_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1041,760"
 		},
 		{
-			"NodeId" : 1771,
+			"NodeId" : 1775,
 			"NodeType" : "Layer",
 			"FileName" : "wentworth7229_2009jan14_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "1209,760"
 		},
 		{
-			"NodeId" : 1772,
+			"NodeId" : 1776,
 			"NodeType" : "Layer",
 			"FileName" : "west_wimmera_shire.json",
-			"ChildNodeIds" : "187,1473,176,208,1607,126,155,203,182,213,235,760,723,1603,1670"
+			"ChildNodeIds" : "187,1473,176,208,1607,126,155,203,182,213,235,760,723,1603,1674"
 		},
 		{
-			"NodeId" : 1773,
+			"NodeId" : 1777,
 			"NodeType" : "Layer",
 			"FileName" : "West_Wimmera_Shire2.json",
-			"ChildNodeIds" : "936,204,177,209,127,156,183,188,214,236,724,1604,1608,1671,760"
+			"ChildNodeIds" : "936,204,177,209,127,156,183,188,214,236,724,1604,1608,1675,760"
 		},
 		{
-			"NodeId" : 1774,
+			"NodeId" : 1778,
 			"NodeType" : "Layer",
 			"FileName" : "westernport7921_2009dec02_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1537,760"
 		},
 		{
-			"NodeId" : 1775,
+			"NodeId" : 1779,
 			"NodeType" : "Layer",
 			"FileName" : "whitfield8124_2009dec14_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1390,760"
 		},
 		{
-			"NodeId" : 1776,
+			"NodeId" : 1780,
 			"NodeType" : "Layer",
 			"FileName" : "willaura7422_2010feb23_air_vis_50cm_mga54_ecw.json",
 			"ChildNodeIds" : "907,760"
 		},
 		{
-			"NodeId" : 1777,
+			"NodeId" : 1781,
 			"NodeType" : "Layer",
 			"FileName" : "wonthaggi8020_2009dec13_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1033,760"
 		},
 		{
-			"NodeId" : 1778,
+			"NodeId" : 1782,
 			"NodeType" : "Layer",
 			"FileName" : "woodend7823_2009dec02_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "1512,760"
 		},
 		{
-			"NodeId" : 1779,
+			"NodeId" : 1783,
 			"NodeType" : "Layer",
 			"FileName" : "yarram8220_2010jan21_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "760,1151"
 		},
 		{
-			"NodeId" : 1780,
+			"NodeId" : 1784,
 			"NodeType" : "Layer",
 			"FileName" : "yea7923_2009dec18_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "989,760"
 		},
 		{
-			"NodeId" : 1781,
+			"NodeId" : 1785,
 			"NodeType" : "Layer",
 			"FileName" : "year_2010.json",
 			"ChildNodeIds" : "1032,760"
 		},
 		{
-			"NodeId" : 1782,
+			"NodeId" : 1786,
 			"NodeType" : "Layer",
 			"FileName" : "year_2011.json",
 			"ChildNodeIds" : "1453,760"
 		},
 		{
-			"NodeId" : 1783,
+			"NodeId" : 1787,
 			"NodeType" : "Layer",
 			"FileName" : "yong8425_kosciuszko8525_2009dec30_air_vis_50cm_mga55_ecw.json",
 			"ChildNodeIds" : "903,760"
